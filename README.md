@@ -1,8 +1,9 @@
 # Introduction to Numpy
 <br>
-NumPy, short for Numerical Python, is a fundamental package for scientific computing in Python. It provides support for large, multi-dimensional arrays and matrices, along with a collection of high-level mathematical functions to operate on these arrays. NumPy is a cornerstone library in the Python data science ecosystem and is widely used for numerical and mathematical operations.
-<br>
+NumPy, short for Numerical Python, is a fundamental package for scientific computing in Python. It provides support for large, multi-dimensional arrays and matrices, along with a collection of high-level mathematical functions to operate on these arrays. NumPy is a cornerstone library in the Python data science ecosystem and is widely used for numerical and mathematical operations.<br>
+
 ## Key Features:
+<br>
 ### 1. N-dimensional Arrays:
 NumPy introduces the numpy.ndarray class, commonly known as arrays, which are efficient containers for large datasets. These arrays can be one-dimensional, two-dimensional, or even multi-dimensional. They provide a flexible way to represent and manipulate numerical data.
 
