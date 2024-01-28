@@ -64,3 +64,32 @@ Flattening an array means converting a multi-dimensional array into a one-dimens
 
 #### Raveling Arrays:
 Raveling is a concept similar to flattening, where a multi-dimensional array is converted into a one-dimensional array. The numpy.ravel function is used for this purpose. It returns a flattened view of the original array whenever possible. Unlike flatten, ravel may return a reference to the original data if no copy is needed.
+
+## Section 3
+
+#### Slicing 2D and 3D Arrays
+Slicing in 2D Arrays:
+Slicing involves extracting specific portions of an array. In 2D arrays, you can slice along both rows and columns using indexing. For example, array[row_start:row_end, col_start:col_end] extracts a subarray from the original array.
+
+Slicing in 3D Arrays:
+Slicing extends naturally to 3D arrays, allowing you to select specific elements along each dimension. Slicing in 3D involves specifying ranges for the three dimensions, such as array[depth, row_start:row_end, col_start:col_end].
+
+#### Negative Slicing:
+Negative indexing allows you to slice arrays from the end. For instance, array[:, -3:] selects the last three columns of a 2D array.
+
+#### Stacking Arrays
+Vertical Stacking:
+Vertical stacking, or numpy.vstack, combines two or more arrays vertically along the first axis. This is useful when you want to concatenate arrays with the same number of columns.
+
+#### Horizontal Stacking:
+Horizontal stacking, or numpy.hstack, concatenates arrays side by side along the second axis. This is beneficial when combining arrays with the same number of rows.
+
+#### Depth Stacking:
+Depth stacking, or numpy.dstack, stacks arrays along the third axis. This is primarily used for 3D arrays.
+
+#### Concatenating Arrays
+Vertical Concatenation:
+Vertical concatenation, or numpy.concatenate with axis=0, joins arrays along the first axis, effectively stacking them vertically.
+
+Horizontal Concatenation:
+Horizontal concatenation, or numpy.concatenate with axis=1, concatenates arrays along the second axis, resulting in a wider array.
