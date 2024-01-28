@@ -2,7 +2,7 @@
 <br>
 NumPy, short for Numerical Python, is a fundamental package for scientific computing in Python. It provides support for large, multi-dimensional arrays and matrices, along with a collection of high-level mathematical functions to operate on these arrays. NumPy is a cornerstone library in the Python data science ecosystem and is widely used for numerical and mathematical operations.<br>
 
-## Key Features:
+### Key Features:
 ### 1. N-dimensional Arrays:
 NumPy introduces the numpy.ndarray class, commonly known as arrays, which are efficient containers for large datasets. These arrays can be one-dimensional, two-dimensional, or even multi-dimensional. They provide a flexible way to represent and manipulate numerical data.
 
@@ -22,7 +22,7 @@ NumPy provides a comprehensive set of linear algebra functions, including matrix
 NumPy seamlessly integrates with other Python libraries, such as SciPy, pandas, and scikit-learn, creating a powerful ecosystem for scientific computing and data analysis.
 
 
-## Secton 1
+## Section 1
 
 ### 1. Creating NumPy Arrays
 NumPy arrays are the foundation for numerical computing in Python. You can create an array by converting a Python list or tuple using the numpy.array function.
@@ -51,3 +51,16 @@ Evenly spaced arrays refer to arrays where the elements are equally spaced betwe
 Understanding these different types of arrays provides a solid foundation for working with NumPy and performing a wide range of numerical computations. Feel free to delve deeper into each concept and explore their applications in various scientific and engineering scenarios.
 
 
+### Section 2
+
+### Shaping Arrays:
+Shaping arrays in NumPy refers to changing the dimensions of an array. You can use the numpy.shape attribute to get the current shape of an array, which returns a tuple representing the size of each dimension.
+
+### Reshaping Arrays:
+Reshaping arrays involves changing the structure of an array by modifying its shape. The numpy.reshape function allows you to specify the desired new shape of the array. It's important to note that the total number of elements in the reshaped array must remain the same as in the original array.
+
+### Flattening Arrays:
+Flattening an array means converting a multi-dimensional array into a one-dimensional array. This can be achieved using the numpy.flatten method or by calling the numpy.ravel method. The resulting flattened array retains the order of elements from the original array.
+
+### Raveling Arrays:
+Raveling is a concept similar to flattening, where a multi-dimensional array is converted into a one-dimensional array. The numpy.ravel function is used for this purpose. It returns a flattened view of the original array whenever possible. Unlike flatten, ravel may return a reference to the original data if no copy is needed.
