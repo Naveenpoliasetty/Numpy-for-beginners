@@ -93,3 +93,14 @@ Vertical concatenation, or numpy.concatenate with axis=0, joins arrays along the
 
 Horizontal Concatenation:
 Horizontal concatenation, or numpy.concatenate with axis=1, concatenates arrays along the second axis, resulting in a wider array.
+
+## Section 4
+
+#### Splitting Arrays
+Vertical Splitting
+Vertical splitting divides an array into multiple subarrays along the vertical axis, which corresponds to the rows of the array. This operation is useful when you want to break down a large array into smaller, vertically aligned segments. You can specify the number of subarrays or provide a list of indices to determine where the splits should occur along the rows.
+
+Horizontal Splitting
+Horizontal splitting, on the other hand, divides an array into multiple subarrays along the horizontal axis, corresponding to the columns of the array. This is helpful when you want to segment an array into smaller, horizontally aligned chunks. Similar to vertical splitting, you can specify the number of subarrays or provide a list of indices to determine where the splits should occur along the columns.
+
+
